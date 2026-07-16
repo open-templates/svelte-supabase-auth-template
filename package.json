@@ -45,7 +45,7 @@
   },
   "packageManager": "bun@1.2.15",
   "dependencies": {
-    "@supabase/supabase-js": "^2.110.0",
+    "@supabase/supabase-js": "^2.110.7",
     "svelte": "^5.39.6",
     "svelte-spa-router": "^4.0.1"
   },
