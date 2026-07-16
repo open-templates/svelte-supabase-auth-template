@@ -1,9 +1,13 @@
 ---
 type: Feature
 title: Purpose
-description: Minimal GitHub repo template with community docs and automation, no app code.
-tags: [github, template]
+description: Goals of the minimal Supabase-authenticated SPA and backend pairing.
+tags: [frontend, supabase, vite, react]
 timestamp: 2026-07-15T00:00:00Z
 ---
 
-Community docs, Dependabot, CODEOWNERS, and issue/PR scaffolding from [@open-templates](https://github.com/open-templates). Application code is added by adopters after init.
+# Purpose
+
+A minimal authenticated SPA template: Supabase handles identity on the client; a Hono worker on Cloudflare validates JWTs for API calls. Fork and add domain features without removing the auth + API skeleton.
+
+Pairs with [cf-hono-supabase-api-template](https://github.com/open-templates/cf-hono-supabase-api-template) — see [10 — Backend pairing](10-backend-pairing.md).

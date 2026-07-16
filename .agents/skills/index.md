@@ -2,20 +2,24 @@
 okf_version: "0.1"
 ---
 
-# github-repo-template skills
+# svelte-supabase-auth-template skills
+
+Module guides for recreating auth, API, and layout patterns. Shared concepts are synced from the workspace `.agents/skills/` bundle.
 
 ## Shared (synced)
 
-Optional cross-template references: [auth/](shared/auth/), [supabase/](shared/supabase/)
+* [auth/](shared/auth/) - Supabase session, JWT passthrough, route guards
+* [supabase/](shared/supabase/) - OAuth setup, worker client helpers
 
 ## Local modules
 
-* [init-from-template](modules/init-from-template.md) - personalization script
+* [api-fetch](modules/api-fetch.md) - `apiFetch` with Bearer token and 401 retry
+* [app-header-health](modules/app-header-health.md) - health polling hook and header UI
 
 ## Agent skills
 
-Cursor catalog: [README.md](README.md) — procedural guides (add `SKILL.md` packs when you adopt a stack).
+Framework guidance: [README.md](README.md)
 
 ## Specs
 
-[index.md](../../index.md)
+Feature contracts: [index.md](../../index.md)
